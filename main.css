@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    animation: render 5s linear infinite both;
+}
+
+@keyframes render {
+    0% {
+        background-color: #a8d5e2; 
+    }
+    20% {
+        background-color: #f5b7b1; 
+    }
+    40% {
+        background-color: #f7dc6f; 
+    }
+    60% {
+        background-color: #a9dfbf; 
+    }
+    80% {
+        background-color: #d2b4de; 
+    }
+    100% {
+        background-color: #a8d5e2; 
+    }
+}
+
+div {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.btn1 {
+    width: 120px;
+    height: 100px;
+    font-size: 50px;
+    background-color: #018001;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 120px;
+    height: 100px;
+    font-size: 50px;
+    background-color: #FE0000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+span {
+    font-size: 50px;
+    margin: 0 30px;
+    color: blue;
+}
